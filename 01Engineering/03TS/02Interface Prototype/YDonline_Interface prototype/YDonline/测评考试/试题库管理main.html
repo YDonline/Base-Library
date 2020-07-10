@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <input name="textfield" type="text" value="试题分类" />
+  <select name="select">
+    <option>试题知识点</option>
+  </select>
+  <input name="textfield2" type="text" value="试题题目" />
+  <select name="select2">
+    <option>试题类型</option>
+  </select>
+  <label>
+  <select name="select3">
+    <option>难度</option>
+  </select>
+  </label>
+  <select name="select4">
+    <option>有效性</option>
+  </select>
+  <input type="submit" name="Submit" value="查询" />
+  <input type="button" name="Submit2" value="新增" />
+</form>
+<form id="form2" name="form2" method="post" action="">
+  <p>
+    <input type="button" name="Submit4" value="导入" onclick="location.href='试题库管理main/导入试题.html';" />
+    <input type="submit" name="Submit5" value="导出" />
+    <input type="submit" name="Submit6" value="删除选中" />
+    <input type="submit" name="Submit3" value="批量删除试题知识点试题" />
+</p>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="37" bgcolor="#33FF99">没有符合您要查询的数据!</td>
+    </tr>
+  </table>
+  <p>&nbsp;  </p>
+</form>
+<p>&nbsp;</p>
+</body>
+</html>
